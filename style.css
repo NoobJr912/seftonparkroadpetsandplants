@@ -1,12 +1,14 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'cursive', comic-sans;
   margin: 0;
   padding: 0;
-  background-color: #333;
+  background-color: #008080 ;
+  color: #fff;
+  text-align: center;
 }
 
 h1, h2 {
-  color: #FFFFFF;
+  color: #fff;
 }
 
 h1 {
@@ -20,12 +22,12 @@ h2 {
 }
 
 p {
-  color: #FFFFFF;
+  color: #fff;
   line-height: 1.5;
 }
 
 a {
-  color: #0077cc;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -41,7 +43,7 @@ a:hover {
 
 iframe {
   width: 100%;
-  height: 600px;
+  height: 1500px;
 }
 
 table {
@@ -51,13 +53,34 @@ table {
 }
 
 th, td {
-  border: 5px solid #FFFFFF;
+  border: 1px solid #ddd;
   padding: 8px;
   text-align: left;
 }
 
-th {
-  background-color: #f2f2f2;
+.th {
+  background-color: #000000;
 }
 
-/* Add more styling as needed */
+header {
+ background-color: #000;
+ background-image: url('https://lh3.googleusercontent.com/pw/ABLVV86VlNmD36zy_qXz50xCy25qa2ostSi3STO1-pTZ0raENsWTN_v6cHD0Yqb00GwWMTUTMwYSc_ho1DobzVa-JHRMnoGi-4iFzp0FvWMRPFB3h9bvd58jthxC_IPTV9RvKjWuE_XqS8xUHaHdCEiRItnDI-AAJbmGhFudfKyxub2ZE_RnvneHVJxmjEsmwFT40hbI4Izx5JQVMGsT5_xivToCUwoulIcyQd1384qrTrv95MA8UIbbJ7dbUjP61irutDXckUM2CfQnvXC6z6_7hjwpjr9mr5zpoeN9g6IXDouydQg1sQ3p-ig8CYbUv17N0OaUSlw6sO3VxcSpqDs59ICUcyxhT17qZppCyeVk51sVWpRcj_s6V4uXCStNTK7porY8VFWVkmiFUOGIz1mxL7TyoWkX4oA6PaZ5rutduGNXMN8hArJ4IBuVSfyBEhk-fNVQgnz2f_uYcZpnePS06oHgto_Hv7FgvVkUsxXb4D_IEKtfNs8Ko6BVO0GC3Oo9jt6MhItHPu9-W7RT9Zn4KF5j-NjRK-XEyWMtPGCmRcek1p66ZF39OTnZRFqxDQmdmwSi5JdCRkPdDwL1J5y_vjdqNEkqMcAT_Kl1I4ebEhmrOajFrDglFolfgUlD5q4TyBO-xcQ1MVEUeDtkPgs59_1rODHvlczU8lBrS4QJXfRnkJEGacjZF1E_700aUm1nU8XclQ6OPWuzDz5Lut65aiXwYSWRMo0aafzBmnF2xBELpT68pDeErJDUaN0ih4JQfy4j7p_BKDJSdOtpP9_BnELEBbX_xcA0ch5qWuodXh-urwlCa-OTkKXjQmcEWy_CCHujOnEtk5DWXrdNHA7sKJzU1WXoIdfGSPwJCIUZfAul4vCcmAs4bb0s5YTz8byXGmtQng=w1280-h526-s-no-gm?authuser=0');
+ background-repeat: no-repeat;
+ background-position: center center;
+ background-size: cover; /* This will make the background image cover the entire header */
+ background-position: center; /* Center the background image */
+ height: 500px; /* Set the height of your header */
+ text-align: center; /* Center text within the header if needed */
+ color: white; /* Set text color to contrast with the background */
+ padding: 20px; /* Add padding for better visibility of text */
+}
+
+ul {
+  display: table;
+  margin: 0 auto;
+}
+
+img {
+  
+}
+
