@@ -49,6 +49,51 @@
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
 </script>
+  
+    <script>
+      window.onload = function () {
+        // Load existing reviews from Firebase
+        var reviewsContainer = document.getElementById("reviewsContainer");
+        var reviewsRef = database.ref("reviews");
+
+        reviewsRef.on("child_added", function (snapshot) {
+          var newReview = document.createElement("div");
+          newReview.innerHTML = snapshot.val();
+          reviewsContainer.appendChild(newReview);
+        });
+      };
+
+      function submitReview() {
+        // Get form values
+        var username = document.getElementById("username").value;
+        var review = document.getElementById("review").value;
+        var rating = document.getElementById("rating").value;
+
+        if (username && review && rating) {
+          // Save the review to Firebase
+          var reviewsRef = database.ref("reviews");
+          var newReviewKey = reviewsRef.push().key;
+
+          var newReviewData =
+            "<strong>Name:</strong> " +
+            username +
+            "<br>" +
+            "<strong>Review:</strong> " +
+            review +
+            "<br>" +
+            "<strong>Rating:</strong> " +
+            rating +
+            "/10<hr>";
+
+          reviewsRef.child(newReviewKey).set(newReviewData);
+
+          // Clear the form fields
+          document.getElementById("username").value = "";
+          document.getElementById("review").value = "";
+          document.getElementById("rating").value = "";
+        }
+      }
+    </script>
 </body>
 <footer>
   <hr>
