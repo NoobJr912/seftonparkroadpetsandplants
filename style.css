@@ -71,6 +71,7 @@ header {
  text-align: center; /* Center text within the header if needed */
  color: white; 
  padding: 20px; 
+ background-color: #000000;
 }
 
 ul {
