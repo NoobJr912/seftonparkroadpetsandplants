@@ -1,5 +1,5 @@
-body {
-  font-family: 'cursive', 'comic-sans' sans-serif;
+ody {
+  font-family: baskerville;
   margin: 0;
   padding: 0;
   background-color: #008080 ;
@@ -63,11 +63,11 @@ th, td {
 }
 
 header {
- background-image: url('https://lh3.googleusercontent.com/pw/ABLVV86VlNmD36zy_qXz50xCy25qa2ostSi3STO1-pTZ0raENsWTN_v6cHD0Yqb00GwWMTUTMwYSc_ho1DobzVa-JHRMnoGi-4iFzp0FvWMRPFB3h9bvd58jthxC_IPTV9RvKjWuE_XqS8xUHaHdCEiRItnDI-AAJbmGhFudfKyxub2ZE_RnvneHVJxmjEsmwFT40hbI4Izx5JQVMGsT5_xivToCUwoulIcyQd1384qrTrv95MA8UIbbJ7dbUjP61irutDXckUM2CfQnvXC6z6_7hjwpjr9mr5zpoeN9g6IXDouydQg1sQ3p-ig8CYbUv17N0OaUSlw6sO3VxcSpqDs59ICUcyxhT17qZppCyeVk51sVWpRcj_s6V4uXCStNTK7porY8VFWVkmiFUOGIz1mxL7TyoWkX4oA6PaZ5rutduGNXMN8hArJ4IBuVSfyBEhk-fNVQgnz2f_uYcZpnePS06oHgto_Hv7FgvVkUsxXb4D_IEKtfNs8Ko6BVO0GC3Oo9jt6MhItHPu9-W7RT9Zn4KF5j-NjRK-XEyWMtPGCmRcek1p66ZF39OTnZRFqxDQmdmwSi5JdCRkPdDwL1J5y_vjdqNEkqMcAT_Kl1I4ebEhmrOajFrDglFolfgUlD5q4TyBO-xcQ1MVEUeDtkPgs59_1rODHvlczU8lBrS4QJXfRnkJEGacjZF1E_700aUm1nU8XclQ6OPWuzDz5Lut65aiXwYSWRMo0aafzBmnF2xBELpT68pDeErJDUaN0ih4JQfy4j7p_BKDJSdOtpP9_BnELEBbX_xcA0ch5qWuodXh-urwlCa-OTkKXjQmcEWy_CCHujOnEtk5DWXrdNHA7sKJzU1WXoIdfGSPwJCIUZfAul4vCcmAs4bb0s5YTz8byXGmtQng=w1280-h526-s-no-gm?authuser=0');
+ background-image: url('https://lh3.googleusercontent.com/pw/ABLVV86E0eqvRLNbLAhKGrsoJOH8wiwgXpNfPjNSzfKqJlt9Ex2O-zK73vwoFwfiF8etIkJuz9qJ7-jeZAxlFBVjmNhsGSKXRgqEZB61fu_TvIjhYSwFcBEH3v2BrPLq0kcicA-ZhTcI2oCcxontQJ8ty9G9CDyCpJrryuZwFrLKZFQqIp4wYldyWSlxMbpBfaOwi65y-WnXvmiqW_dksxVSrcbtFSZbkqlBXYZenmiZ1B0MVB35qMnNXDw9hmkQoKRXIwLxct8rIneT6tUtvLQwccpzcVmn9mI6yMZnFpOLWHjWyJhYwMnM4j8dLKFv1WGrAKsPCT_JmEHqkOPcUtK0TJwaDaalUE0KuOEtUoZe4tyQJaOf-tYkS70D3EWZ43IlazdH2gAU9A7yQrqz9V1zwKJnLLeL2-LY4h9YNpAulsN_O9F39JAPZQQOZMr_pQPpW9IRgPoeme2ksm7tbZLaOnk-Fq8aRisYYQ5yWfvvXcpPdWI_Et89wDXJ_TQ_77RWMnnOOfZcjdvI3ic4RmRANU8ev9_tTdhJnRnkZx7AKyCT5sqMmahO0BWxZWFjGTOqiPRVk6zJqWD6vqAyFclglqkT_GPEqH4Al9ofD0mRQkaYhnb19zeh66RedfjnaEavg72GsXVah7gGcj_TCcQ1vorsDBEWPh18OKVpXE3wxeHunBageKZ_ADGGCFklffsNE4Th1o0oyPfeyvsQ1k68394iVBQFOLRAP6GtzlLxL5vjdzmJlnzp2QIG1Bhwu2tBPwAqxWUkDCwlFZLZKrWebnUGgo2vSvV-fp91Dskfhmx6ebjqk4Kis3fj8kuRXTEycWOEETCfB1CGsw7kblPnhigw9Jb289QsV5wsaQlqkPy4FjYAqlKpxB3BKlVP3ab-HgS4XA=w1280-h526-s-no-gm?authuser=0');
  background-repeat: no-repeat;
  background-size: cover; /* This will make the background image cover the entire header */
  background-position: center; /* Center the background image */
- height: 800px; /* Set the height of your header */
+ height: 500px; /* Set the height of your header */
  text-align: center; /* Center text within the header if needed */
  color: white; 
  padding: 20px; 
@@ -78,5 +78,3 @@ ul {
   display: table;
   margin: 0 auto;
 }
-
-
