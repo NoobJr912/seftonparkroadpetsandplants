@@ -68,7 +68,7 @@ header {
  background-repeat: no-repeat;
  background-size: cover; /* This will make the background image cover the entire header */
  background-position: center; /* Center the background image */
- height: 500px; /* Set the height of your header */
+ height: 800px; /* Set the height of your header */
  text-align: center; /* Center text within the header if needed */
  color: white; 
  padding: 20px; 
