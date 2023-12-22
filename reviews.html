@@ -50,7 +50,7 @@
             var username = document.getElementById("username").value;
             var review = document.getElementById("review").value;
             var rating = document.getElementById("rating").value;
-
+ if (username && review && rating) {
             // Create a new review element
             var newReview = document.createElement("div");
             newReview.innerHTML = "<strong>Name:</strong> " + username + "<br>" +
