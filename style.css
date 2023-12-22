@@ -70,7 +70,7 @@ header {
  background-position: center; /* Center the background image */
  height: 500px; /* Set the height of your header */
  text-align: center; /* Center text within the header if needed */
- color: white; /* Set text color to contrast with the background */
+ color: white; 
  padding: 20px; 
 }
 
