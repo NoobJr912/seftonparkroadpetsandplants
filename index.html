@@ -1,109 +1,47 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Sefton Park Rd Pets and Plants</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1" >
-  <link href="style.css" rel="stylesheet">
-</head>
-<body>
-  <header>
-  <p><br></p>
-  <h2>..............................................</h2>
-  <h1>Sefton Park Road Pets and Plants</h1>
-  <p>Heading on your holidays and need someone to look after your furry friends and water your garden?</p>
-  <h2>..............................................<br><br></h2>
-   <ul>
-  <li><a href='./aboutme.html'>About Me<br><br></a></li>
-  <li><a href='./bookings.html'>Current Bookings<br><br></a></li>
-  </ul>
-  </header>
-  <br>
-  <a href='./tips.html'>Press Here for some Tips and Tricks</a>
-  <p>Currently I am available for the whole of the christmas holidays.</p>
-  <h2>To Book:</h2>
-  <p>Either fill out the form (below) or email seftonparkroadpetsandplants@gmail.com</p>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeQszzW_Dgkrlq9gU8zyaeIj0mwPPGDddf1fnDcokZHxbrvUw/viewform?embedded=true" width="640" height="1241" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
+<link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <h1>Sefton Park Road Pets & Plants</h1>
+        <a class="btn" href="bookings.html">Bookings</a>
+      </div>
+    </div>
+    <div class="nav">
+      <div class="container">
+        <ul>
+          <li><a class="btn" href="bookings.html">Bookings</a></li>
+          <li><a class="btn" href= "mailto: seftonparkroadpetsandplants@gmail.com">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+      
+    <div class="main">
+      <div class="container">
+     
+        <h2>About Me</h2>
+        <h4>Hi! My name’s Arthur, I’m 13 years old and live on Sefton Park Road. I own a dog, a cocker spaniel called Popcorn, and I used to own a hamster called Parsley so I have plenty of experience caring for pets.<h4>
+        <h4 class="main">Furthermore, I have house sitted for a family with two dogs, three cats, a bearded dragon and a snake.<h4>
+        <h4>I have looked after one family's animals three times now. Including two cats, two rabbits and two gunea pigs<h4>
+        <h4>I also help out my Mum and Dad on our allotment and I water our house plants.</h4>
+      </div>
+    </div>
 
-  <script src="script.js"></script>
-  <script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
-
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  const firebaseConfig = {
-    apiKey: "AIzaSyCSAaCG3RdTv272FeFsnhQWCFaldOjDoVg",
-    authDomain: "rherh-da425.firebaseapp.com",
-    projectId: "rherh-da425",
-    storageBucket: "rherh-da425.appspot.com",
-    messagingSenderId: "729872173491",
-    appId: "1:729872173491:web:c1596bcd463f1e0f20a3c6",
-    measurementId: "G-T40RZ5HKF0"
-  };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-</script>
-  
-    <script>
-      window.onload = function () {
-        // Load existing reviews from Firebase
-        var reviewsContainer = document.getElementById("reviewsContainer");
-        var reviewsRef = database.ref("reviews");
-
-        reviewsRef.on("child_added", function (snapshot) {
-          var newReview = document.createElement("div");
-          newReview.innerHTML = snapshot.val();
-          reviewsContainer.appendChild(newReview);
-        });
-      };
-
-      function submitReview() {
-        // Get form values
-        var username = document.getElementById("username").value;
-        var review = document.getElementById("review").value;
-        var rating = document.getElementById("rating").value;
-
-        if (username && review && rating) {
-          // Save the review to Firebase
-          var reviewsRef = database.ref("reviews");
-          var newReviewKey = reviewsRef.push().key;
-
-          var newReviewData =
-            "<strong>Name:</strong> " +
-            username +
-            "<br>" +
-            "<strong>Review:</strong> " +
-            review +
-            "<br>" +
-            "<strong>Rating:</strong> " +
-            rating +
-            "/10<hr>";
-
-          reviewsRef.child(newReviewKey).set(newReviewData);
-
-          // Clear the form fields
-          document.getElementById("username").value = "";
-          document.getElementById("review").value = "";
-          document.getElementById("rating").value = "";
-        }
-      }
-    </script>
-</body>
-<footer>
-  <hr>
-  <p>Email: seftonparkroadpetsandplants@gmail.com</p>
-    <ul>
-    <li><a href='./index.html'>Home</a></li>
-    <li><a href='./aboutme.html'>About Me</a></li>
-    <li><a href='./bookings.html'>Bookings</a></li>
-    <li><a href='./reviews.html'>Leave a Review</a></li>
-    <li><a href='./tips.html'>Tips and Tricks</a></li>
-  </ul>
-  <br>
-</footer>
+    <div class="jumbotron">
+      <div class="container">
+             <img src='https://i.ibb.co/ftQ4VrD/PXL-20240801-193525611.jpg' height='403' width='302'>
+             <img src='https://i.ibb.co/SvKwxqc/PXL-20240831-174752399-PORTRAIT.jpg' height='403' width='302'>
+               <img src='https://i.ibb.co/t8b3LvN/PXL-20240831-174810160-PORTRAIT.jpg' height='403' width='302'>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <p>seftonparkroadpetsandplants@gmail.com</p>
+      </div>
+    </div>
+  </body>
 </html>
