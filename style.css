@@ -15,7 +15,7 @@ body {
 }
 
 .header {
-  background: url(https://i.postimg.cc/G22C3fC4/dog-4372036.jpg) no-repeat center center; 
+  background: url(https://i.ibb.co/RH1p7TX/dog-4372036.jpg) no-repeat center center; 
   background-size: cover;
   height: 800px;
   text-align: center; 
@@ -55,7 +55,8 @@ body {
   background: #000;
   padding: 10px 40px;
   text-decoration: none; 
-  transition: background .5s; 
+  transition: background .5s;
+  border-radius: 15px;  
 }
 
 .nav { 
@@ -84,7 +85,8 @@ body {
 .btn:hover, .nav ul li:hover {
   background: #117bff;
   cursor: pointer; 
-  transition: background .5s;  
+  transition: background .5s;
+  corner-radius:   
 }
 
 .main .container {
